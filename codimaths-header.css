@@ -1,0 +1,73 @@
+
+.logo{
+    height: 50px;
+    width: 150px;
+    padding-left: 20px;
+}
+.bg-light{
+    background-color: white !important;
+}
+.dropdown-menu{
+    background-color: whitesmoke;
+}
+.dropdown-item{
+    color:black;
+    
+}
+.dropdown-item li:hover{
+    color: #195cc5;
+}
+
+li.nav-item.dropdown a:hover{
+    color: #195cc5;
+}
+li.nav-item.dropdown a{
+    color: black;
+}
+a.nav-link.active {
+    color: #195cc5;
+}
+
+.nav-item:hover .nav-link a {display: block;}
+.navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 160px;
+    text-align: center;
+    background-color: transparent;
+}
+.navbar>.container .navbar-brand-centered, 
+.navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -80px;
+}
+.nav-link::after {
+	position: absolute !important;
+	content: "";
+	width: 0% !important;
+	height: 4px !important;
+	background-color: #195cc5 !important;
+	left: 50% !important;
+	bottom: 15px !important;
+	transition: all 0.4s ease-in-out !important;
+}
+
+.nav-item:hover .nav-link::after {
+	width: 100% !important;
+	left: 0 !important;
+}
+.nav-item{
+    float: right !important;
+}
+.navbar-collapse {
+    flex-basis: auto;
+    flex-grow: 0;
+}
+.nav-item{
+    padding: 20px;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    box-shadow: 5px 5px 5px 5px rgb(232, 230, 230);
+}

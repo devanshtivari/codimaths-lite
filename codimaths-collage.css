@@ -1,0 +1,71 @@
+.collage{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.collage h1{
+    text-align: center;
+    color: #195cc5;
+}
+.collage h1:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.collage p{
+    text-align: center;
+}
+.img5{
+    width: 100%;
+    height: 500px;
+    transition: 0.7s;
+    overflow: hidden;
+}
+.img5 img:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.img5 img{
+    transition: 0.7s;
+}
+
+.img1{
+    width: 100%;
+    height: 240px;
+    margin-bottom: 10px;
+    transition: 0.7s;
+    overflow: hidden;
+}
+.img1 img:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.img1 img{
+    transition: 0.7s;
+}
+
+
+
+.img2{
+    margin-top: 10px;
+    transition: 0.7s;
+    overflow: hidden;
+}
+.img2 img:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.img2 img{
+    transition: 0.7s;
+}
+
+.img-fluid{
+    height: 240px;
+    width: 100%;
+}
+
+.img5 .img-fluid{
+    height: 500px;
+}
+.img-fluid:hover{
+    scale: (0.25 0.25);
+}

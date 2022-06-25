@@ -1,0 +1,28 @@
+.carousel-item{
+    background-color: rgb(198 225 243 / 55%);
+    padding: 100px 0px;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+}
+.carousel-img img{
+    height: 400px;
+    width: 500px;
+    float: right;
+}
+.carousel-txt{
+    padding: 40px;
+}
+.carousel-txt h1{
+    color: #195cc5;
+    font-size: 44px;
+    font-weight: 700;
+}
+.carousel-txt p{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 30px;
+}
